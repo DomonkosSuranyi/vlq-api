@@ -65,4 +65,9 @@ public class VLQNumber {
                 return Arrays.copyOfRange(array, i, array.length);
         return new int[] {0};
     }
+
+    @Override
+    public String toString() {
+        return Integer.toString(intoInt());
+    }
 }
